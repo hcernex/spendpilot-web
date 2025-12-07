@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment identifier et supprimer les ressources Cloud orphelines — SpendPilot</title>
+    <meta name="description" content="Disques détachés, IPs non utilisées, snapshots oubliés... Ces ressources fantômes peuvent représenter jusqu'à 15% de votre facture Cloud.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../favicon.png" alt="SpendPilot" class="logo-img">
+                <span class="logo-text">Spend<span class="logo-highlight">Pilot</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html#produit">Produit</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" aria-label="Thème"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button>
+                <a href="../contact.html" class="nav-cta">Audit Gratuit</a>
+            </div>
+        </div>
+    </nav>
+
+    <article class="article-page">
+        <div class="container">
+            <div class="article-header">
+                <a href="../blog.html" class="article-back">← Retour au blog</a>
+                <span class="blog-category">Bonnes pratiques</span>
+                <h1>Comment identifier et supprimer les ressources Cloud orphelines</h1>
+                <div class="article-meta">
+                    <span class="article-date">28 novembre 2024</span>
+                    <span class="article-read-time">8 min de lecture</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p class="article-intro">
+                    Les ressources orphelines sont des éléments Cloud qui continuent d'être facturés sans être utilisés. Selon les études, elles représentent <strong>10 à 15% du gaspillage Cloud</strong>. Voici comment les identifier et les supprimer.
+                </p>
+
+                <h2>Les types de ressources orphelines</h2>
+
+                <h3>1. Disques non attachés (Unattached Disks)</h3>
+                <p>
+                    Quand une VM est supprimée, ses disques peuvent rester. Un disque Premium SSD de 512 Go coûte environ <strong>75€/mois</strong> même sans VM.
+                </p>
+                <p><strong>Comment détecter :</strong></p>
+                <ul>
+                    <li>Azure : Disks → Filtrer par "Unattached"</li>
+                    <li>AWS : EC2 → Volumes → Filtrer par "available"</li>
+                </ul>
+
+                <h3>2. Adresses IP publiques non utilisées</h3>
+                <p>
+                    Les IPs statiques réservées mais non associées sont facturées. Sur Azure, une IP Standard coûte environ <strong>3€/mois</strong>.
+                </p>
+
+                <h3>3. Snapshots anciens</h3>
+                <p>
+                    Les snapshots de sauvegarde s'accumulent. Un snapshot de 500 Go coûte environ <strong>25€/mois</strong>. Conservez uniquement les snapshots nécessaires.
+                </p>
+
+                <h3>4. Load Balancers sans backend</h3>
+                <p>
+                    Un Application Load Balancer AWS coûte environ <strong>20€/mois</strong> minimum, même sans trafic.
+                </p>
+
+                <h3>5. Autres ressources souvent oubliées</h3>
+                <ul>
+                    <li>Network Security Groups orphelins</li>
+                    <li>VNets/VPCs non utilisés</li>
+                    <li>Elastic IPs non associées</li>
+                    <li>NAT Gateways sans routes</li>
+                    <li>Log Analytics workspaces vides</li>
+                </ul>
+
+                <h2>Stratégie de nettoyage</h2>
+
+                <h3>Étape 1 : Audit complet</h3>
+                <p>Utilisez les outils natifs pour identifier les ressources orphelines :</p>
+                <ul>
+                    <li><strong>Azure Advisor</strong> : recommandations de coûts</li>
+                    <li><strong>AWS Trusted Advisor</strong> : idle resources</li>
+                    <li><strong>GCP Recommender</strong> : ressources sous-utilisées</li>
+                </ul>
+
+                <h3>Étape 2 : Classification</h3>
+                <p>Catégorisez les ressources :</p>
+                <ul>
+                    <li><strong>Suppression immédiate</strong> : clairement inutiles</li>
+                    <li><strong>À vérifier</strong> : potentiellement utilisées</li>
+                    <li><strong>À conserver</strong> : nécessaires pour DR/backup</li>
+                </ul>
+
+                <h3>Étape 3 : Automatisation</h3>
+                <p>Mettez en place des scripts ou des policies pour prévenir l'accumulation :</p>
+                <ul>
+                    <li>Azure Policy pour les tags obligatoires</li>
+                    <li>AWS Config rules pour les ressources non conformes</li>
+                    <li>Lifecycle policies pour les snapshots</li>
+                </ul>
+
+                <div class="article-cta">
+                    <h3>Identifiez vos ressources orphelines</h3>
+                    <p>Notre audit analyse votre infrastructure et identifie toutes les ressources inutilisées.</p>
+                    <a href="../contact.html" class="btn btn-primary">Demander mon audit gratuit →</a>
+                </div>
+
+                <h2>Conclusion</h2>
+                <p>
+                    Le nettoyage des ressources orphelines est un quick win FinOps majeur. C'est souvent la première action recommandée car elle génère des économies immédiates sans risque pour la production.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2024 SpendPilot.</p></div></div></footer>
+    <script src="../script.js"></script>
+</body>
+</html>
