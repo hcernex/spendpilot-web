@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — SpendPilot | Audit Cloud Gratuit</title>
+    <meta name="description" content="Demandez votre audit Cloud gratuit. Découvrez en 48h combien vous pouvez économiser sur Azure et AWS.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💸</text></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Spend<span class="logo-highlight">Pilot</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#produit">Produit</a></li>
+                <li><a href="index.html#tarifs">Tarifs</a></li>
+                <li><a href="index.html#ressources">Ressources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta">Audit Gratuit →</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-tag">Contact</div>
+                    <h1>Demandez votre <span class="highlight">audit gratuit</span></h1>
+                    <p>En quelques heures, vous saurez exactement combien vous pouvez économiser sur votre infrastructure Cloud Azure ou AWS.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-text">
+                                <span>Email</span>
+                                <strong>contact@spendpilot.io</strong>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-text">
+                                <span>Localisation</span>
+                                <strong>Paris, France</strong>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-text">
+                                <span>Temps de réponse</span>
+                                <strong>Sous 24 heures</strong>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-trust" style="margin-top: 40px; padding: 24px; background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 16px;">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                            <strong style="color: #10B981;">Garantie zéro risque</strong>
+                        </div>
+                        <ul style="color: var(--text-secondary); font-size: 0.95rem; display: flex; flex-direction: column; gap: 8px;">
+                            <li>✓ Audit 100% gratuit et sans engagement</li>
+                            <li>✓ Accès lecture seule à votre tenant</li>
+                            <li>✓ Résultats en 48 heures</li>
+                            <li>✓ Pas d'économies = Pas de paiement</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h2>Formulaire de demande</h2>
+                    <p>Remplissez le formulaire ci-dessous et nous vous recontacterons rapidement.</p>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Prénom *</label>
+                                <input type="text" id="firstName" name="firstName" required placeholder="Jean">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Nom *</label>
+                                <input type="text" id="lastName" name="lastName" required placeholder="Dupont">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email professionnel *</label>
+                            <input type="email" id="email" name="email" required placeholder="jean.dupont@entreprise.com">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Entreprise *</label>
+                                <input type="text" id="company" name="company" required placeholder="Ma Société SAS">
+                            </div>
+                            <div class="form-group">
+                                <label for="role">Fonction</label>
+                                <input type="text" id="role" name="role" placeholder="DSI, CTO, Cloud Architect...">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cloudProvider">Cloud Provider *</label>
+                                <select id="cloudProvider" name="cloudProvider" required>
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="azure">Microsoft Azure</option>
+                                    <option value="aws">Amazon Web Services (AWS)</option>
+                                    <option value="both">Azure + AWS (Multi-cloud)</option>
+                                    <option value="other">Autre / Je ne sais pas</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="monthlySpend">Budget Cloud mensuel estimé</label>
+                                <select id="monthlySpend" name="monthlySpend">
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="10k">Moins de 10 000 €</option>
+                                    <option value="10-50k">10 000 € - 50 000 €</option>
+                                    <option value="50-100k">50 000 € - 100 000 €</option>
+                                    <option value="100-500k">100 000 € - 500 000 €</option>
+                                    <option value="500k+">Plus de 500 000 €</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message (optionnel)</label>
+                            <textarea id="message" name="message" placeholder="Décrivez brièvement votre situation, vos enjeux ou vos questions..."></textarea>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">J'accepte que mes données soient traitées conformément à la <a href="#">politique de confidentialité</a> de SpendPilot. *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Demander mon audit gratuit</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 80px 0; background: var(--bg-card);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2>Questions fréquentes</h2>
+            </div>
+            <div class="faq-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 1000px; margin: 0 auto;">
+                <div class="faq-item" style="padding: 24px; background: var(--bg-dark); border: 1px solid var(--border); border-radius: 16px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 12px;">Comment fonctionne l'audit gratuit ?</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Nous connectons SpendPilot à votre tenant Azure ou AWS en lecture seule. Notre outil analyse automatiquement vos ressources et génère un rapport complet des économies possibles en 48h.</p>
+                </div>
+                <div class="faq-item" style="padding: 24px; background: var(--bg-dark); border: 1px solid var(--border); border-radius: 16px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 12px;">Quelles données sont collectées ?</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Uniquement les métadonnées de configuration et d'usage (types d'instances, utilisation CPU/RAM, coûts). Aucune donnée métier n'est accessible ni stockée.</p>
+                </div>
+                <div class="faq-item" style="padding: 24px; background: var(--bg-dark); border: 1px solid var(--border); border-radius: 16px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 12px;">Que se passe-t-il si vous ne trouvez rien ?</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Si notre audit ne révèle aucune économie significative, vous ne payez rien. C'est notre garantie zéro risque.</p>
+                </div>
+                <div class="faq-item" style="padding: 24px; background: var(--bg-dark); border: 1px solid var(--border); border-radius: 16px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 12px;">Comment sont calculés les 20% ?</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Les 20% s'appliquent uniquement sur les économies effectivement réalisées la première année, après implémentation de nos recommandations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">◈</span>
+                        <span class="logo-text">Spend<span class="logo-highlight">Pilot</span></span>
+                    </a>
+                    <p>Optimisation des coûts Cloud. FinOps et GreenOps pour Azure et AWS.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html#produit">Produit</a></li>
+                        <li><a href="index.html#tarifs">Tarifs</a></li>
+                        <li><a href="index.html#ressources">Ressources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="https://www.finops.org/" target="_blank">FinOps Foundation</a></li>
+                        <li><a href="https://data.finops.org/" target="_blank">State of FinOps</a></li>
+                        <li><a href="https://learn.microsoft.com/fr-fr/cloud-computing/finops/overview" target="_blank">FinOps par Microsoft</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>contact@spendpilot.io</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 SpendPilot. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
