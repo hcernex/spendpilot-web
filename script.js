@@ -5,6 +5,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     // ============================================
+    // Theme Toggle (Light/Dark Mode)
+    // ============================================
+    const themeToggle = document.querySelector('.theme-toggle');
+    const html = document.documentElement;
+    
+    // Check for saved theme preference or default to dark
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', savedTheme);
+    
+    if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+    
+    // ============================================
     // Navbar scroll effect
     // ============================================
     const navbar = document.querySelector('.navbar');
