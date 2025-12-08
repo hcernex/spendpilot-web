@@ -1349,6 +1349,7 @@ img {
     flex-wrap: wrap;
     color: var(--text-muted);
     font-size: 0.9rem;
+    margin-top: 24px;
 }
 
 /* ============================================
