@@ -39,7 +39,9 @@ const translations = {
         
         // Problem section
         "problem.tag": "Le problème",
-        "problem.title": "Votre facture Cloud cache des <span class=\"highlight\">milliers d'euros</span> de gaspillage",
+        "problem.title.part1": "Votre facture Cloud cache des",
+        "problem.title.part2": "milliers d'euros",
+        "problem.title.part3": "de gaspillage",
         "problem.1.title": "Ressources surdimensionnées",
         "problem.1.desc": "VMs et instances bien trop puissantes pour leur charge réelle. Vous payez pour de la capacité inutilisée.",
         "problem.2.title": "Environnements oubliés",
@@ -55,7 +57,8 @@ const translations = {
         
         // Solution section
         "solution.tag": "La solution",
-        "solution.title": "SpendPilot analyse votre tenant et identifie <span class=\"highlight\">toutes les économies</span>",
+        "solution.title.part1": "SpendPilot analyse votre tenant et identifie",
+        "solution.title.part2": "toutes les économies",
         "solution.subtitle": "En quelques minutes, notre outil scanne automatiquement votre infrastructure Azure ou AWS et génère un rapport complet des optimisations possibles.",
         "solution.step1.title": "Connexion sécurisée",
         "solution.step1.desc": "Accès en lecture seule à votre tenant via Azure Resource Graph ou AWS APIs. Installation en moins de 30 minutes, aucun changement d'infrastructure.",
@@ -86,7 +89,8 @@ const translations = {
         
         // Pricing
         "pricing.tag": "Tarifs",
-        "pricing.title": "Un modèle <span class=\"highlight\">orienté résultats</span>",
+        "pricing.title.part1": "Un modèle",
+        "pricing.title.part2": "orienté résultats",
         "pricing.subtitle": "Vous ne payez que si nous générons des économies. C'est aussi simple que ça.",
         "pricing.badge": "Le plus populaire",
         "pricing.main.title": "Audit & Optimisation",
@@ -116,11 +120,13 @@ const translations = {
         
         // Social proof
         "proof.tag": "Ils en parlent",
-        "proof.title": "Le gaspillage Cloud est un <span class=\"highlight\">problème mondial</span>",
+        "proof.title.part1": "Le gaspillage Cloud est un",
+        "proof.title.part2": "problème mondial",
         
         // Resources
         "resources.tag": "Ressources",
-        "resources.title": "Comprendre le <span class=\"highlight\">FinOps & GreenOps</span>",
+        "resources.title.part1": "Comprendre le",
+        "resources.title.part2": "FinOps & GreenOps",
         "resources.market": "📊 Marché FinOps",
         "resources.waste": "💸 Gaspillage Cloud",
         "resources.green": "🌱 GreenOps",
@@ -144,7 +150,8 @@ const translations = {
         
         // Contact page
         "contact.tag": "Contact",
-        "contact.title": "Demandez votre <span class=\"highlight\">audit gratuit</span>",
+        "contact.title.part1": "Demandez votre",
+        "contact.title.part2": "audit gratuit",
         "contact.subtitle": "En quelques heures, vous saurez exactement combien vous pouvez économiser sur votre infrastructure Cloud Azure ou AWS.",
         "contact.email.label": "Email",
         "contact.location.label": "Localisation",
@@ -196,7 +203,8 @@ const translations = {
 
         // Blog page
         "blog.tag": "Blog",
-        "blog.title": "FinOps & GreenOps : <span class=\"highlight\">Actualités et conseils</span>",
+        "blog.title.part1": "FinOps & GreenOps :",
+        "blog.title.part2": "Actualités et conseils",
         "blog.subtitle": "Découvrez nos articles sur l'optimisation des coûts Cloud, les bonnes pratiques FinOps et les stratégies GreenOps pour Azure et AWS.",
         "blog.category.finops": "FinOps",
         "blog.category.azure": "Azure",
@@ -267,7 +275,9 @@ const translations = {
         
         // Problem section
         "problem.tag": "The problem",
-        "problem.title": "Your Cloud bill hides <span class=\"highlight\">thousands of dollars</span> in waste",
+        "problem.title.part1": "Your Cloud bill hides",
+        "problem.title.part2": "thousands of dollars",
+        "problem.title.part3": "in waste",
         "problem.1.title": "Oversized resources",
         "problem.1.desc": "VMs and instances far too powerful for their actual load. You pay for unused capacity.",
         "problem.2.title": "Forgotten environments",
@@ -283,7 +293,8 @@ const translations = {
         
         // Solution section
         "solution.tag": "The solution",
-        "solution.title": "SpendPilot analyzes your tenant and identifies <span class=\"highlight\">all savings</span>",
+        "solution.title.part1": "SpendPilot analyzes your tenant and identifies",
+        "solution.title.part2": "all savings",
         "solution.subtitle": "In minutes, our tool automatically scans your Azure or AWS infrastructure and generates a complete optimization report.",
         "solution.step1.title": "Secure connection",
         "solution.step1.desc": "Read-only access to your tenant via Azure Resource Graph or AWS APIs. Setup in under 30 minutes, no infrastructure changes.",
@@ -314,7 +325,9 @@ const translations = {
         
         // Pricing
         "pricing.tag": "Pricing",
-        "pricing.title": "A <span class=\"highlight\">results-oriented</span> model",
+        "pricing.title.part1": "A",
+        "pricing.title.part2": "results-oriented",
+        "pricing.title.part3": "model",
         "pricing.subtitle": "You only pay if we generate savings. It's that simple.",
         "pricing.badge": "Most popular",
         "pricing.main.title": "Audit & Optimization",
@@ -344,11 +357,13 @@ const translations = {
         
         // Social proof
         "proof.tag": "In the press",
-        "proof.title": "Cloud waste is a <span class=\"highlight\">global problem</span>",
+        "proof.title.part1": "Cloud waste is a",
+        "proof.title.part2": "global problem",
         
         // Resources
         "resources.tag": "Resources",
-        "resources.title": "Understanding <span class=\"highlight\">FinOps & GreenOps</span>",
+        "resources.title.part1": "Understanding",
+        "resources.title.part2": "FinOps & GreenOps",
         "resources.market": "📊 FinOps Market",
         "resources.waste": "💸 Cloud Waste",
         "resources.green": "🌱 GreenOps",
@@ -372,7 +387,8 @@ const translations = {
         
         // Contact page
         "contact.tag": "Contact",
-        "contact.title": "Request your <span class=\"highlight\">free audit</span>",
+        "contact.title.part1": "Request your",
+        "contact.title.part2": "free audit",
         "contact.subtitle": "In a few hours, you'll know exactly how much you can save on your Azure or AWS Cloud infrastructure.",
         "contact.email.label": "Email",
         "contact.location.label": "Location",
@@ -424,7 +440,8 @@ const translations = {
 
         // Blog page
         "blog.tag": "Blog",
-        "blog.title": "FinOps & GreenOps: <span class=\"highlight\">News and insights</span>",
+        "blog.title.part1": "FinOps & GreenOps:",
+        "blog.title.part2": "News and insights",
         "blog.subtitle": "Discover our articles on Cloud cost optimization, FinOps best practices, and GreenOps strategies for Azure and AWS.",
         "blog.category.finops": "FinOps",
         "blog.category.azure": "Azure",
