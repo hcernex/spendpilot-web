@@ -215,22 +215,22 @@
                             <div class="form-group">
                                 <label for="cloudProvider" data-i18n="contact.form.provider">Cloud Provider *</label>
                                 <select id="cloudProvider" name="cloudProvider" required aria-required="true" aria-label="Cloud Provider">
-                                    <option value="">Sélectionnez...</option>
-                                    <option value="azure">Microsoft Azure</option>
-                                    <option value="aws">Amazon Web Services (AWS)</option>
-                                    <option value="both">Azure + AWS (Multi-cloud)</option>
-                                    <option value="other">Autre / Je ne sais pas</option>
+                                    <option value="" data-i18n="form.select">Sélectionnez...</option>
+                                    <option value="azure" data-i18n="form.provider.azure">Microsoft Azure</option>
+                                    <option value="aws" data-i18n="form.provider.aws">Amazon Web Services (AWS)</option>
+                                    <option value="both" data-i18n="form.provider.both">Azure + AWS (Multi-cloud)</option>
+                                    <option value="other" data-i18n="form.provider.other">Autre / Je ne sais pas</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="monthlySpend" data-i18n="contact.form.spend">Budget Cloud mensuel estimé</label>
                                 <select id="monthlySpend" name="monthlySpend" aria-label="Budget Cloud mensuel estimé">
-                                    <option value="">Sélectionnez...</option>
-                                    <option value="10k">Moins de 10 000 €</option>
-                                    <option value="10-50k">10 000 € - 50 000 €</option>
-                                    <option value="50-100k">50 000 € - 100 000 €</option>
-                                    <option value="100-500k">100 000 € - 500 000 €</option>
-                                    <option value="500k+">Plus de 500 000 €</option>
+                                    <option value="" data-i18n="form.budget.select">Sélectionnez...</option>
+                                    <option value="10k" data-i18n="form.budget.10k">Moins de 10 000 €</option>
+                                    <option value="10-50k" data-i18n="form.budget.10-50k">10 000 € - 50 000 €</option>
+                                    <option value="50-100k" data-i18n="form.budget.50-100k">50 000 € - 100 000 €</option>
+                                    <option value="100-500k" data-i18n="form.budget.100-500k">100 000 € - 500 000 €</option>
+                                    <option value="500k+" data-i18n="form.budget.500k">Plus de 500 000 €</option>
                                 </select>
                             </div>
                         </div>
@@ -314,7 +314,7 @@
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h4>Contact</h4>
+                    <h4 data-i18n="nav.contact">Contact</h4>
                     <p><a href="mailto:spendpilot.contact@gmail.com">spendpilot.contact@gmail.com</a></p>
                     <p><a href="tel:+33749958756">+33 7 49 95 87 56</a></p>
                     <div class="footer-social">
@@ -332,10 +332,10 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2024 SpendPilot. Tous droits réservés.</p>
+                <p data-i18n="footer.copyright">© 2024 SpendPilot. Tous droits réservés.</p>
                 <div class="footer-legal">
-                    <a href="mentions-legales.html">Mentions légales</a>
-                    <a href="confidentialite.html">Politique de confidentialité</a>
+                    <a href="mentions-legales.html" data-i18n="footer.legal">Mentions légales</a>
+                    <a href="confidentialite.html" data-i18n="footer.privacy">Politique de confidentialité</a>
                 </div>
             </div>
         </div>

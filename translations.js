@@ -179,7 +179,56 @@ const translations = {
         "faq.q3.title": "Que se passe-t-il si vous ne trouvez rien ?",
         "faq.q3.answer": "Si notre audit ne révèle aucune économie significative, vous ne payez rien. C'est notre garantie zéro risque.",
         "faq.q4.title": "Comment sont calculés les 20% ?",
-        "faq.q4.answer": "Les 20% s'appliquent uniquement sur les économies effectivement réalisées la première année, après implémentation de nos recommandations."
+        "faq.q4.answer": "Les 20% s'appliquent uniquement sur les économies effectivement réalisées la première année, après implémentation de nos recommandations.",
+
+        // Contact form options
+        "form.select": "Sélectionnez...",
+        "form.provider.azure": "Microsoft Azure",
+        "form.provider.aws": "Amazon Web Services (AWS)",
+        "form.provider.both": "Azure + AWS (Multi-cloud)",
+        "form.provider.other": "Autre / Je ne sais pas",
+        "form.budget.select": "Sélectionnez...",
+        "form.budget.10k": "Moins de 10 000 €",
+        "form.budget.10-50k": "10 000 € - 50 000 €",
+        "form.budget.50-100k": "50 000 € - 100 000 €",
+        "form.budget.100-500k": "100 000 € - 500 000 €",
+        "form.budget.500k": "Plus de 500 000 €",
+
+        // Blog page
+        "blog.tag": "Blog",
+        "blog.title": "FinOps & GreenOps : <span class=\"highlight\">Actualités et conseils</span>",
+        "blog.subtitle": "Découvrez nos articles sur l'optimisation des coûts Cloud, les bonnes pratiques FinOps et les stratégies GreenOps pour Azure et AWS.",
+        "blog.category.finops": "FinOps",
+        "blog.category.azure": "Azure",
+        "blog.category.aws": "AWS",
+        "blog.category.greenops": "GreenOps",
+        "blog.category.practices": "Bonnes pratiques",
+        "blog.category.news": "Actualités",
+        "blog.read-more": "Lire l'article →",
+        "blog.newsletter.title": "Restez informé des dernières actualités FinOps",
+        "blog.newsletter.subtitle": "Recevez nos articles, guides et conseils directement dans votre boîte mail.",
+        "blog.newsletter.email": "Votre email professionnel",
+        "blog.newsletter.submit": "S'abonner",
+
+        // Blog articles
+        "blog.article1.date": "7 décembre 2024",
+        "blog.article1.title": "Le guide complet du FinOps en 2025 : principes, pratiques et outils",
+        "blog.article1.desc": "Découvrez comment le FinOps transforme la gestion des coûts Cloud. De la théorie à la pratique, tout ce que vous devez savoir pour implémenter une stratégie FinOps efficace.",
+        "blog.article2.date": "5 décembre 2024",
+        "blog.article2.title": "10 techniques pour réduire vos coûts Azure de 30%",
+        "blog.article2.desc": "Reserved Instances, Azure Advisor, rightsizing... Découvrez les meilleures pratiques pour optimiser votre facture Azure sans sacrifier la performance.",
+        "blog.article3.date": "3 décembre 2024",
+        "blog.article3.title": "AWS Savings Plans vs Reserved Instances : que choisir ?",
+        "blog.article3.desc": "Comprendre les différences entre Savings Plans et Reserved Instances pour maximiser vos économies sur AWS. Guide comparatif détaillé.",
+        "blog.article4.date": "1 décembre 2024",
+        "blog.article4.title": "GreenOps : Comment réduire l'empreinte carbone de votre Cloud",
+        "blog.article4.desc": "Le lien entre optimisation des coûts et durabilité. Découvrez comment le GreenOps peut vous aider à atteindre vos objectifs RSE tout en réduisant vos dépenses.",
+        "blog.article5.date": "28 novembre 2024",
+        "blog.article5.title": "Comment identifier et supprimer les ressources Cloud orphelines",
+        "blog.article5.desc": "Disques détachés, IPs non utilisées, snapshots oubliés... Ces ressources fantômes peuvent représenter jusqu'à 15% de votre facture Cloud.",
+        "blog.article6.date": "25 novembre 2024",
+        "blog.article6.title": "135 milliards de dollars gaspillés dans le Cloud en 2024",
+        "blog.article6.desc": "Analyse du rapport sur le gaspillage Cloud mondial. Pourquoi les entreprises peinent à optimiser leurs dépenses et comment y remédier."
     },
     
     en: {
@@ -358,7 +407,56 @@ const translations = {
         "faq.q3.title": "What happens if you don't find anything?",
         "faq.q3.answer": "If our audit reveals no significant savings, you pay nothing. That's our zero-risk guarantee.",
         "faq.q4.title": "How is the 20% calculated?",
-        "faq.q4.answer": "The 20% applies only to savings actually achieved in the first year, after implementing our recommendations."
+        "faq.q4.answer": "The 20% applies only to savings actually achieved in the first year, after implementing our recommendations.",
+
+        // Contact form options
+        "form.select": "Select...",
+        "form.provider.azure": "Microsoft Azure",
+        "form.provider.aws": "Amazon Web Services (AWS)",
+        "form.provider.both": "Azure + AWS (Multi-cloud)",
+        "form.provider.other": "Other / I don't know",
+        "form.budget.select": "Select...",
+        "form.budget.10k": "Less than €10,000",
+        "form.budget.10-50k": "€10,000 - €50,000",
+        "form.budget.50-100k": "€50,000 - €100,000",
+        "form.budget.100-500k": "€100,000 - €500,000",
+        "form.budget.500k": "More than €500,000",
+
+        // Blog page
+        "blog.tag": "Blog",
+        "blog.title": "FinOps & GreenOps: <span class=\"highlight\">News and insights</span>",
+        "blog.subtitle": "Discover our articles on Cloud cost optimization, FinOps best practices, and GreenOps strategies for Azure and AWS.",
+        "blog.category.finops": "FinOps",
+        "blog.category.azure": "Azure",
+        "blog.category.aws": "AWS",
+        "blog.category.greenops": "GreenOps",
+        "blog.category.practices": "Best practices",
+        "blog.category.news": "News",
+        "blog.read-more": "Read article →",
+        "blog.newsletter.title": "Stay informed about the latest FinOps news",
+        "blog.newsletter.subtitle": "Receive our articles, guides and tips directly in your inbox.",
+        "blog.newsletter.email": "Your professional email",
+        "blog.newsletter.submit": "Subscribe",
+
+        // Blog articles
+        "blog.article1.date": "December 7, 2024",
+        "blog.article1.title": "The Complete FinOps Guide for 2025: Principles, Practices, and Tools",
+        "blog.article1.desc": "Discover how FinOps transforms Cloud cost management. From theory to practice, everything you need to know to implement an effective FinOps strategy.",
+        "blog.article2.date": "December 5, 2024",
+        "blog.article2.title": "10 Techniques to Reduce Your Azure Costs by 30%",
+        "blog.article2.desc": "Reserved Instances, Azure Advisor, rightsizing... Discover the best practices to optimize your Azure bill without sacrificing performance.",
+        "blog.article3.date": "December 3, 2024",
+        "blog.article3.title": "AWS Savings Plans vs Reserved Instances: Which to Choose?",
+        "blog.article3.desc": "Understand the differences between Savings Plans and Reserved Instances to maximize your AWS savings. Detailed comparison guide.",
+        "blog.article4.date": "December 1, 2024",
+        "blog.article4.title": "GreenOps: How to Reduce Your Cloud Carbon Footprint",
+        "blog.article4.desc": "The link between cost optimization and sustainability. Discover how GreenOps can help you achieve your CSR goals while reducing expenses.",
+        "blog.article5.date": "November 28, 2024",
+        "blog.article5.title": "How to Identify and Remove Orphaned Cloud Resources",
+        "blog.article5.desc": "Detached disks, unused IPs, forgotten snapshots... These phantom resources can represent up to 15% of your Cloud bill.",
+        "blog.article6.date": "November 25, 2024",
+        "blog.article6.title": "$135 Billion Wasted in the Cloud in 2024",
+        "blog.article6.desc": "Analysis of the global Cloud waste report. Why companies struggle to optimize their spending and how to fix it."
     }
 };
 
