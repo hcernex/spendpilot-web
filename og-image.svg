@@ -49,13 +49,13 @@
 
   <!-- Main headline -->
   <text x="80" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="white">
-    Reduisez votre
+    Réduisez votre
   </text>
   <text x="80" y="360" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="white">
     facture Cloud de
   </text>
   <text x="80" y="440" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="url(#accentGradient)">
-    20 a 40%
+    20 à 40%
   </text>
 
   <!-- Subtitle -->
@@ -74,15 +74,15 @@
   <g transform="translate(280, 550)">
     <rect width="180" height="50" rx="25" fill="#00D4AA" opacity="0.2"/>
     <text x="90" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#00D4AA" text-anchor="middle">
-      48h resultat
+      48h résultat
     </text>
   </g>
 
   <!-- Chart illustration -->
   <g transform="translate(800, 200)">
     <rect width="320" height="200" rx="16" fill="#1E293B" opacity="0.8"/>
-    <text x="20" y="35" font-family="Arial, sans-serif" font-size="14" fill="#9CA3AF">Economies identifiees</text>
-    <text x="20" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#00D4AA">47 280 EUR/an</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="14" fill="#9CA3AF">Économies identifiées</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#00D4AA">47 280 €/an</text>
 
     <!-- Bar chart -->
     <rect x="20" y="90" width="40" height="80" rx="4" fill="#374151"/>

@@ -203,41 +203,7 @@ Modifiez les variables CSS au début de `styles.css` :
 
 - **Textes** : Modifiez directement dans les fichiers HTML
 - **Images** : Ajoutez vos images dans un dossier `images/`
-- **Logo** : Remplacez le logo SVG dans le code HTML
-
-### Polices
-
-Les polices utilisées (Outfit + JetBrains Mono) sont chargées depuis Google Fonts. Pour les modifier, changez les liens dans le `<head>`.
-
----
-
-## 📱 Fonctionnalités
-
-- ✅ Design responsive (mobile, tablette, desktop)
-- ✅ Animations au scroll
-- ✅ Navigation fluide avec smooth scroll
-- ✅ Formulaire de contact
-- ✅ Liens vers sources de presse réelles
-- ✅ Optimisé SEO (meta descriptions)
-- ✅ Dark mode par défaut
-- ✅ Performance optimisée (CSS/JS minimal)
-
----
-
-## 📊 Prochaines étapes recommandées
-
-1. **Domaine** : Achetez `spendpilot.io` ou `.fr` (OVH, Gandi, Namecheap)
-2. **Email** : Configurez `contact@spendpilot.io`
-3. **Analytics** : Ajoutez Google Analytics ou Plausible
-4. **Formulaire** : Connectez à un service (Formspree, Zapier)
-5. **Legal** : Rédigez les mentions légales et politique de confidentialité
-6. **Blog** : Ajoutez une section blog pour le SEO
-
----
-
-## 🆘 Support
-
-Pour toute question sur ce template, n'hésitez pas à me recontacter !
+- **Logo** : Remplacez le logo SVG dans le code HTM
 
 ---
 
